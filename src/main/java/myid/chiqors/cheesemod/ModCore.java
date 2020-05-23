@@ -51,26 +51,26 @@ public class ModCore {
         // Item/Block init and registering
         // Config handling
         // Items
-        itemTablet = new ItemTablet().setUnlocalizedName("ItemTablet").setTextureName(ModHelper.ModInfo.modid+":tablet").setCreativeTab(tabMineoutMod);
+        itemTablet = new ItemTablet().setUnlocalizedName("ItemTablet").setTextureName(ModHelper.ModInfo.modid+":tablet").setCreativeTab(tabCheeseMod);
         // Foods X * 0.5 = 2.5 hearts/hunger (Beef 0.8F saturation)
-        itemCheese = new ItemFood(8, 0.5F, false).setUnlocalizedName("ItemCheese").setTextureName(ModHelper.ModInfo.modid+":cheese").setCreativeTab(tabMineoutMod);
-        itemCookedCheese = new ItemFood(16, 1.0F, true).setUnlocalizedName("ItemCookedCheese").setTextureName(ModHelper.ModInfo.modid+":cooked_cheese").setCreativeTab(tabMineoutMod);
+        itemCheese = new ItemFood(8, 0.5F, false).setUnlocalizedName("ItemCheese").setTextureName(ModHelper.ModInfo.modid+":cheese").setCreativeTab(tabCheeseMod);
+        itemCookedCheese = new ItemFood(16, 1.0F, true).setUnlocalizedName("ItemCookedCheese").setTextureName(ModHelper.ModInfo.modid+":cooked_cheese").setCreativeTab(tabCheeseMod);
         // Materials or Crafting Items
-        itemCheeseStick = new ItemCheeseStick().setUnlocalizedName("ItemCheeseStick").setTextureName(ModHelper.ModInfo.modid+":stick_cheese").setCreativeTab(tabMineoutMod);
+        itemCheeseStick = new ItemCheeseStick().setUnlocalizedName("ItemCheeseStick").setTextureName(ModHelper.ModInfo.modid+":stick_cheese").setCreativeTab(tabCheeseMod);
         // Tools
-        itemCheesePickaxe = new ItemCheesePickaxe(cheeseToolMaterial).setUnlocalizedName("ItemCheesePickaxe").setTextureName(ModHelper.ModInfo.modid+":cheese_pickaxe").setCreativeTab(tabMineoutMod);
-        itemCheeseAxe = new ItemCheeseAxe(cheeseToolMaterial).setUnlocalizedName("ItemCheeseAxe").setTextureName(ModHelper.ModInfo.modid+":cheese_axe").setCreativeTab(tabMineoutMod);
-        itemCheeseShovel = new ItemCheeseShovel(cheeseToolMaterial).setUnlocalizedName("ItemCheeseShovel").setTextureName(ModHelper.ModInfo.modid+":cheese_shovel").setCreativeTab(tabMineoutMod);
-        itemCheeseHoe = new ItemCheeseHoe(cheeseToolMaterial).setUnlocalizedName("ItemCheeseHoe").setTextureName(ModHelper.ModInfo.modid+":cheese_hoe").setCreativeTab(tabMineoutMod);
-        itemCheeseSword = new ItemCheeseSword(cheeseToolMaterial).setUnlocalizedName("ItemCheeseSword").setTextureName(ModHelper.ModInfo.modid+":cheese_sword").setCreativeTab(tabMineoutMod);
+        itemCheesePickaxe = new ItemCheesePickaxe(cheeseToolMaterial).setUnlocalizedName("ItemCheesePickaxe").setTextureName(ModHelper.ModInfo.modid+":cheese_pickaxe").setCreativeTab(tabCheeseMod);
+        itemCheeseAxe = new ItemCheeseAxe(cheeseToolMaterial).setUnlocalizedName("ItemCheeseAxe").setTextureName(ModHelper.ModInfo.modid+":cheese_axe").setCreativeTab(tabCheeseMod);
+        itemCheeseShovel = new ItemCheeseShovel(cheeseToolMaterial).setUnlocalizedName("ItemCheeseShovel").setTextureName(ModHelper.ModInfo.modid+":cheese_shovel").setCreativeTab(tabCheeseMod);
+        itemCheeseHoe = new ItemCheeseHoe(cheeseToolMaterial).setUnlocalizedName("ItemCheeseHoe").setTextureName(ModHelper.ModInfo.modid+":cheese_hoe").setCreativeTab(tabCheeseMod);
+        itemCheeseSword = new ItemCheeseSword(cheeseToolMaterial).setUnlocalizedName("ItemCheeseSword").setTextureName(ModHelper.ModInfo.modid+":cheese_sword").setCreativeTab(tabCheeseMod);
         // Armors
-        itemCheeseHelmet = new ItemCheeseArmor(cheeseArmorMaterial, 0, 0).setUnlocalizedName("ItemCheeseHelmet").setTextureName(ModHelper.ModInfo.modid+":cheese_helmet").setCreativeTab(tabMineoutMod); // ArmorTypeIndex (0=helmet..3=boots)
-        itemCheeseChestplate = new ItemCheeseArmor(cheeseArmorMaterial, 0, 1).setUnlocalizedName("ItemCheeseChestplate").setTextureName(ModHelper.ModInfo.modid+":cheese_chestplate").setCreativeTab(tabMineoutMod);
-        itemCheeseLeggings = new ItemCheeseArmor(cheeseArmorMaterial, 0, 2).setUnlocalizedName("ItemCheeseLeggings").setTextureName(ModHelper.ModInfo.modid+":cheese_leggings").setCreativeTab(tabMineoutMod);
-        itemCheeseBoots = new ItemCheeseArmor(cheeseArmorMaterial, 0, 3).setUnlocalizedName("ItemCheeseBoots").setTextureName(ModHelper.ModInfo.modid+":cheese_boots").setCreativeTab(tabMineoutMod);
+        itemCheeseHelmet = new ItemCheeseArmor(cheeseArmorMaterial, 0, 0).setUnlocalizedName("ItemCheeseHelmet").setTextureName(ModHelper.ModInfo.modid+":cheese_helmet").setCreativeTab(tabCheeseMod); // ArmorTypeIndex (0=helmet..3=boots)
+        itemCheeseChestplate = new ItemCheeseArmor(cheeseArmorMaterial, 0, 1).setUnlocalizedName("ItemCheeseChestplate").setTextureName(ModHelper.ModInfo.modid+":cheese_chestplate").setCreativeTab(tabCheeseMod);
+        itemCheeseLeggings = new ItemCheeseArmor(cheeseArmorMaterial, 0, 2).setUnlocalizedName("ItemCheeseLeggings").setTextureName(ModHelper.ModInfo.modid+":cheese_leggings").setCreativeTab(tabCheeseMod);
+        itemCheeseBoots = new ItemCheeseArmor(cheeseArmorMaterial, 0, 3).setUnlocalizedName("ItemCheeseBoots").setTextureName(ModHelper.ModInfo.modid+":cheese_boots").setCreativeTab(tabCheeseMod);
         // Blocks
-        blockDriedDirt = new BlockDriedDirt(Material.sand).setBlockName("DriedDirt").setBlockTextureName(ModHelper.ModInfo.modid+":drieddirt").setCreativeTab(tabMineoutMod);
-        blockCheese = new BlockCheese(Material.rock).setBlockName("BlockCheese").setBlockTextureName(ModHelper.ModInfo.modid+":block_cheese").setCreativeTab(tabMineoutMod);
+        blockDriedDirt = new BlockDriedDirt(Material.sand).setBlockName("DriedDirt").setBlockTextureName(ModHelper.ModInfo.modid+":drieddirt").setCreativeTab(tabCheeseMod);
+        blockCheese = new BlockCheese(Material.rock).setBlockName("BlockCheese").setBlockTextureName(ModHelper.ModInfo.modid+":block_cheese").setCreativeTab(tabCheeseMod);
 
         // Items
         GameRegistry.registerItem(itemTablet, itemTablet.getUnlocalizedName().substring(5));
@@ -128,7 +128,7 @@ public class ModCore {
 
     }
 
-    public static CreativeTabs tabMineoutMod = new CreativeTabs("tabMineoutMod") {
+    public static CreativeTabs tabCheeseMod = new CreativeTabs("tabCheeseMod") {
         @Override
         public Item getTabIconItem() {
             return new ItemStack(itemCheese).getItem();
