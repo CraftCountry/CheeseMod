@@ -1,0 +1,22 @@
+item.ItemTablet.name=Tablet
+
+item.ItemCheese.name=Cheese
+item.ItemCookedCheese.name=Cooked Cheese
+
+item.ItemCheeseStick.name=Cheese Stick
+
+item.ItemCheesePickaxe.name=Cheese Pickaxe
+item.ItemCheeseAxe.name=Cheese Axe
+item.ItemCheeseShovel.name=Cheese Shovel
+item.ItemCheeseHoe.name=Cheese Hoe
+item.ItemCheeseSword.name=Cheese Sword
+
+item.ItemCheeseHelmet.name=Cheese Helmet
+item.ItemCheeseChestplate.name=Cheese Chestplate
+item.ItemCheeseLeggings.name=Cheese Leggings
+item.ItemCheeseBoots.name=Cheese Boots
+
+tile.DriedDirt.name=Dried Dirt
+tile.BlockCheese.name=Block Cheese
+
+itemGroup.tabMineoutMod=ExperimentMC

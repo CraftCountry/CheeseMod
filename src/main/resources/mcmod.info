@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cheesemod",
+  "name": "Cheese Mod",
+  "description": "This mod adds in various cheese items, armor, ores, and tools!",
+  "version": "1.0.0",
+  "mcversion": "1.7.10",
+  "url": "https://github.com/chiqors",
+  "updateUrl": "",
+  "authorList": ["chiqors","MrCrayFish"],
+  "credits": "ChiqoRS and MrCrayFish",
+  "logoFile": "/logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
